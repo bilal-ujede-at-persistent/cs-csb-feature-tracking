@@ -138,12 +138,14 @@
   - [ ] Documentation updated (if applicable)
   - [ ] OpenAPI specification updated
   - [ ] CI checks pass
+  - [ ] Test case code coverage screenshot attached
   ```
 - [ ] Add labels to the PR (e.g., 'feature', 'security')
 - [ ] Assign reviewers (e.g., @teamlead, @securityexpert)
 - [ ] Assign the PR to the developer (e.g., @developer1)
 - [ ] Link the PR to the relevant milestone (e.g., v1.2)
 - [ ] Link the PR to the project board (if applicable)
+- [ ] Attach a screenshot of the test case code coverage to the PR
 
 ## 7. Code Review Process
 - [ ] Wait for the project lead to review the PR
@@ -155,6 +157,7 @@
   - [ ] Ensure that unit tests are present and cover the new/modified functionality
   - [ ] Validate that the OpenAPI specification has been updated (if applicable)
 - [ ] Address any comments or requested changes
+- [ ] Review the attached test case code coverage screenshot and ensure it meets the required threshold (>80%)
 - [ ] Push new commits to the same branch if changes are required
   ```
   git commit -m "Address PR feedback: <brief description>"
